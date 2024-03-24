@@ -1,6 +1,6 @@
 const enableRadio = document.getElementById('enable');
-  const disableRadio = document.getElementById('disable');
-  const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+const disableRadio = document.getElementById('disable');
+const checkboxes = document.querySelectorAll('input[type="checkbox"]');
 
   enableRadio.addEventListener('change', function() {
     if (this.checked) {
